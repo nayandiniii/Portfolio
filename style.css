@@ -1,0 +1,174 @@
+@font-face {
+    font-family: techmono;
+    src: url('techmono.ttf');
+}
+body{
+    background-color: #040f3d;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.linktop {
+    padding: 17px 20px;
+    text-align: center;
+    color: #4BFFA5;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: techmono;
+    transition: 0.2s; /* Apply the transition to the base state as well */
+    margin-top: 500px; /* Add this line to shift down by 50px */
+}
+
+.linktop:hover {
+    background-color: #4BFFA5;
+    color: #040F3D;
+    transform: scale(1.1); /* Zoom in effect */
+}
+
+.leftdiv{
+    float: left;
+    margin-left: 20x;
+}
+
+.rightdiv{
+    float: right;
+}
+#demo {
+    font-family: techmono;
+    color: #4BFFA5;
+    font-size: 120px;
+    margin-top: 150px;
+    text-align: center;
+}
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+.buttonclass
+{
+    background-color: #4BFFA5;
+    color: #040F3D;
+    font-family: techmono;
+    border-radius: 12px;
+    font-size: 18px;
+    margin-left: 600px;
+    font-style: bold;
+    align-items: center;
+    transition: 0.2s;
+    justify-content: center;
+    height: 50px; /* Adjust the height as needed */
+    width: 120px; /* Adjust the width as needed */
+}
+.buttonclass:hover{
+    background-color: #040F3D;
+    color: #4BFFA5;
+    transform: scale(1.1);
+    border: 2px solid #4BFFA5;
+}
+
+.headings{
+    text-decoration: underline;
+    color: #4BFFA5;
+    font-family: techmono;
+    font-size: 60px;
+    margin-top: 00px;
+    font-style: bold;
+}
+@keyframes breathing {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+.breathing-image {
+    width: 300px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    animation: breathing 1.5s infinite ease-in-out; /* Adjust duration and timing function as needed */
+}
+.content
+{
+    font-family: techmono;
+    color: #4BFFA5;
+    size: 17px;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+.content2
+{
+    font-family: techmono;
+    color: #4BFFA5;
+    size: 17px;
+    margin-top: 00px;
+    margin-left: 30px;
+}
+#skills{
+    margin-top: 150px;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px; /* Adjust margin as needed */
+}
+
+.buttonclass2 {
+    background-color: #040F3D;
+    color: #4BFFA5;
+    font-family: techmono;
+    border-radius: 12px;
+    font-size: 18px;
+    border: 2px solid #4BFFA5;
+    font-weight: bold; /* Use font-weight instead of font-style for bold */
+    margin-left: 10px; /* Adjust margin as needed */
+    transition: 0.2s;
+    height: 50px;
+    margin-right: 50px;
+    width: 120px;
+}
+
+.buttonclass2:hover {
+    background-color: #4BFFA5;
+    color: #040F3D;
+    transform: scale(1.1);
+    border: 2px solid #040F3D;
+}
+#projects{
+    margin-top: 500px;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 80px; /* Adjust the left margin as needed */
+}
+.image-container2 {
+    position: relative;
+    display: inline-block;
+    margin-left: 300px; /* Adjust the left margin as needed */
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: #040f3d9d; /* Lightly opaque white */
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.image-container:hover .overlay {
+    opacity: 0; /* On hover, make the overlay fully transparent */
+}
+.image-container2:hover .overlay {
+    opacity: 0; /* On hover, make the overlay fully transparent */
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #040F3D;
+    color: #4BFFA5;
+    border: 2px solid #4BFFA5;
+}
